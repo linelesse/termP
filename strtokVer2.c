@@ -5,8 +5,9 @@
 
 int main() {
     FILE* inputFile = NULL;
+    char filename[] = "test_license2_crop2.txt";
 
-    inputFile = fopen("test_license2_crop2.txt", "r");
+    inputFile = fopen(filename, "r");
 
     char* strs[7];
     int number[7];
@@ -38,7 +39,7 @@ int main() {
         dataNum[i] = (int*)calloc(2, sizeof(int));
     }
 
-    inputFile = fopen("test_license2_crop2.txt", "r");
+    inputFile = fopen(filename, "r");
     if (inputFile != NULL) {
         char  buffer[1024];
 
