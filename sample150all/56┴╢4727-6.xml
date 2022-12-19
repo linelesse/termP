@@ -83,4 +83,16 @@
 			<ymax>83</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>조</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>106</xmin>
+			<ymin>44</ymin>
+			<xmax>130</xmax>
+			<ymax>81</ymax>
+		</bndbox>
+	</object>
 </annotation>
